@@ -6,11 +6,132 @@
     <title>About SMISKI</title>
 
     <!--tailwind-->
-    <script src="https://cdn/tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>About SMISKI</h1></a>
+<body class="bg-white">
+<!--PAGE2: ABOUT-->
+    <nav class="bg-lime-600 sticky top-0">
+        <div class="px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-lime-50 hover:bg-lime-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <!--
+                  Icon when menu is closed.
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!--
+                  Icon when menu is open.
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex shrink-0 items-center">
+                <img class="h-8 w-auto" src="/assets/img/smiski logo.png" alt="logo">
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a href="/./index.html" class="rounded-md px-3 py-2 text-sm font-medium text-lime-50 hover:bg-lime-800 text-lime-50">Home</a>
+                  <a href="/./pages/page1/index.html" class="rounded-md px-3 py-2 text-sm font-medium text-lime-50 hover:bg-lime-800 hover:text-lime-50">SMISKI Series</a>
+                  <a href="index.html" class="rounded-md px-3 py-2 text-sm font-medium text-lime-50 bg-lime-800 text-lime-50">About</a>
+                  <a href="/./pages/page3/index.html" class="rounded-md px-3 py-2 text-sm font-medium text-lime-50 hover:bg-lime-800 hover:text-lime-50">Contact</a>
+                </div>
+              </div>
+            </div>
         </div>
-      </nav>
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="/./index.html" class="block rounded-md px-3 py-2 text-base font-medium text-lime-50 hover:bg-lime-800 text-lime-50">Home</a>
+            <a href="/./pages/page1/index.html" class="block rounded-md px-3 py-2 text-base font-medium text-lime-50 hover:bg-lime-800 hover:text-lime-50">SMISKI Series</a>
+            <a href="index.html" class="block rounded-md px-3 py-2 text-base font-medium text-lime-50 bg-lime-800 text-lime-50">About</a>
+            <a href="/./pages/page3/index.html" class="block rounded-md px-3 py-2 text-base font-medium text-lime-50 hover:bg-lime-800 hover:text-lime-50">Contact</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <div class="py-10"><h2 class="text-center text-base font-semibold text-lime-700">Q&A</h2>
+    <p class="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">What, How & Where?</p>
+    <h3 class="text-center mt-4 text-sm text-gray-700 italic">Know more about SMISKI, how to buy, and where SMISKI is from!</h3></div>
+
+    <div class="px-6 py-12 font-sans">
+        <div class="lg:max-w-7xl max-w-lg mx-auto px-6 py-8 bg-lime-50 rounded-t-[2rem] rounded-b-[2rem] shadow-md">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div class="max-h-80">
+              <img src="/pages/page2/img/smiski_hippers_banner02.jpg" alt="Image" class="rounded-md object-cover w-full h-full" />
+            </div>
+            <div class="py-8">
+              <h2 class="text-3xl font-bold tracking-tight text-lime-900 mb-4">What is SMISKI?</h2>
+              <p class="text-gray-600 text-sm leading-6">
+                Smiski are small, glow-in-the-dark figurines designed by the Japanese company Dreams Inc. Known for their quirky and often funny poses, Smiskis are typically found hiding in various corners of your home or workspace.
+              </p>
+              <ul class="list-disc text-sm text-gray-600 space-y-2 pl-4 mt-6">
+                <li>Derived from the Japanese phrase “隅にいる” (sumi ni iru) meaning "being in the corner"</li>
+                <li>Each SMISKI will come randomly in a blind box."</li>
+                <li>In each series comes 6 different poses + one SECRET SMISKI!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-6 py-12 font-sans">
+        <div class="lg:max-w-7xl max-w-lg mx-auto px-6 py-8 bg-lime-50 rounded-t-[2rem] rounded-b-[2rem] shadow-md">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div class="max-h-80">
+              <img src="/pages/page2/img/livingsmiski.png" alt="Image" class="rounded-md object-cover w-full h-full" />
+            </div>
+            <div class="py-5">
+              <h2 class="text-3xl font-bold tracking-tight text-lime-900 mb-4">How To Buy?</h2>
+              <p class="text-gray-600 text-sm leading-6 mx-2 py-2">
+                For SMISKI Philippines, you can buy in the nearest Fully Booked stores.
+              </p>
+              <ul class="list-disc text-sm text-gray-600 space-y-2 pl-4 mt-6">
+                <li>You can also buy on Fully Booked store online.</li>
+                <li>Create unique projects.</li>
+                <li>Collaborate with like-minded individuals.</li>
+              </ul>
+              <div class="mt-6 px-2">
+                <a href="https://www.fullybookedonline.com/" class="text-lime-900 text-sm font-semibold hover:text-lime-700">Fully Booked</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-8 py-12 font-sans">
+        <div class="lg:max-w-7xl max-w-lg mx-auto px-6 py-8 bg-lime-50 rounded-t-[2rem] rounded-b-[2rem] shadow-md">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div class="max-h-80">
+              <img src="/pages/page2/img/bath_img.png" alt="Image" class="rounded-md object-cover w-full h-full" />
+            </div>
+            <div class="py-8">
+              <h2 class="text-3xl font-bold tracking-tight text-lime-900 mb-4">Where SMISKI is from?</h2>
+              <p class="text-gray-600 text-sm leading-6">
+                Smiski was created by Dreams Inc., a Japanese company known for producing quirky and creative products. Dreams Inc. specializes in designing items that bring a sense of playfulness and charm into everyday life, and Smiski is one of their most successful lines. The creative team at Dreams Inc. aimed to create something that was not only collectible but also intriguing and mysterious.
+              </p>
+              <ul class="list-disc text-sm text-gray-600 space-y-2 pl-4 mt-6">
+                <li>Introduced on 2015</li>
+                <li>Japanese company Dreams Inc.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
+<footer class="bg-lime-600 py-7 px-8 font-medium">
+    <div class="text-center flex max-lg:text-center flex-col items-center justify-between gap-6">
+      <p class='text-lime-50  max-lg:order-1'>© SMISKI Official.</p>
+    </div>
+  </footer>
 </html>
