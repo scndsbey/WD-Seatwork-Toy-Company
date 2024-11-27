@@ -16,7 +16,9 @@
   Check out new Smiski series!
 </div>
 
-<br />
+<br/>
+
+
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
@@ -24,8 +26,7 @@
 
 ---
 
-<br />
-<br />
+<br/>
 
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
