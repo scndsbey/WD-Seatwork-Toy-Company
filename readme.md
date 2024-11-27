@@ -2,7 +2,7 @@
 
 <br/>
 
-<br />
+<br/>
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
@@ -19,6 +19,8 @@
 <br/>
 
 
+
+[![wakatime](https://wakatime.com/badge/user/6d74dadb-7352-4c6d-8983-3e7c3816bc35/project/01e10e48-c081-432c-b8fe-3f7a2f95e9dc.svg)](https://wakatime.com/badge/user/6d74dadb-7352-4c6d-8983-3e7c3816bc35/project/01e10e48-c081-432c-b8fe-3f7a2f95e9dc)
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
