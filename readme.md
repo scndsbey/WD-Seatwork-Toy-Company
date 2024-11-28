@@ -10,7 +10,7 @@
   <h3 align="center">SMISKI Website</h3>
 </div>
 <div align="center">
-  Tiny Creatures that live in corners...
+  Tiny creatures that live in corners...
 </div>
 
 <br/>
