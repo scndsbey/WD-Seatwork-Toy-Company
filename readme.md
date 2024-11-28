@@ -110,8 +110,6 @@ WD-ProjectName
 ```
 
 ## Resources
-
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 | SMISKI Official Website | This was used in order to have an inspiration of its branding and image. |https://smiski.com/e/smiski/|
 | Tailwind CSS | Open-source Library | https://tailwindcss.com/docs/padding |
