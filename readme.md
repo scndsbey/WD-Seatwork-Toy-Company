@@ -111,6 +111,7 @@ WD-ProjectName
 
 ## Resources
 | Title | Purpose | Link |
+|-|-|-|
 | SMISKI Official Website | This was used in order to have an inspiration of its branding and image. |https://smiski.com/e/smiski/|
 | Tailwind CSS | Open-source Library | https://tailwindcss.com/docs/padding |
 | Tailwind UI | This was used for the initial components of the SMISKI website, and was edited to fit the website.| https://tailwindui.com/components |
